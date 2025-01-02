@@ -2,7 +2,7 @@ let menu = document.querySelector('#navmenu');
 let nav = document.querySelector('#menu');
 
 menu.onclick = () => {
-  menu.classList.toggle('bx-x');
+  menu.classList.toggle('bx');
   nav.classList.toggle('open');
 };
 
